@@ -1,0 +1,33 @@
+* 00000001
+*! version 1.0.0
+* Do not erase or edit this file
+* It is used by Stata to track the ado and help
+* files you have installed.
+
+S http://fmwww.bc.edu/repec/bocode/f
+N factortest.pkg
+D  2 Dec 2018
+U 1
+d 'FACTORTEST': module to perform tests for appropriateness of factor analysis
+d 
+d factortest performs Bartlett's test for sphericity and calculates
+d the Kaiser-Meyer-Olkin Measure of Sampling Adequacy. Both tests
+d should be used  prior to a factor or a principal component
+d analysis.
+d 
+d KW: factor analysis
+d KW: principal components
+d KW: sphericity
+d KW: sampling adequacy
+d 
+d Requires: Stata version 7.0
+d 
+d 
+d Author:  Joao Pedro Azevedo, University of Newcastle-upon-Tyne, UK
+d Support: email j.p.azevedo@@ncl.ac.uk
+d 
+d Distribution-Date: 20060827
+d 
+f f\factortest.ado
+f f\factortest.hlp
+e
