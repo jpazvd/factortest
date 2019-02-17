@@ -1,7 +1,7 @@
-v 0.0.0
-d 'FACTORTEST' 
+v 1.0
+d 'FACTORTEST': Stata module to perform tests for appropriateness of factor analysis
 d 
-d Distribution-Date: 
+d Distribution-Date: 18ago2006
 d License: MIT
 d 
 F src/f/factortest.ado
